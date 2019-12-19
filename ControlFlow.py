@@ -5,7 +5,7 @@ Date: 12-16-19
 Program: Guess My Number
 
 """
-"""
+
 myNumber = 7
 
 print("\nGuess a number between 1 & 10\n")
@@ -19,8 +19,8 @@ guess = int(input("Enter a guess: "))
 while guess != myNumber:
     guess = int(input("\nWrong, enter a new guess: "))
 
-print("\nCongratulations, you found my number!")
-"""
+print("\nCongratulations, you found my number!\n")
+
 
 """
 

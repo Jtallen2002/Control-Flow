@@ -19,4 +19,22 @@ guess = int(input("Enter a guess: "))
 while guess != myNumber:
     guess = int(input("\nWrong, enter a new guess: "))
 
-print("\nCongratulations, you found my number!")
+print("\nCongratulations, you found my number!\n")
+
+
+"""
+
+Programmer: Jake Allen
+Date: 12-19-19
+Program: 1-10
+
+"""
+
+x = 1
+
+# While loop will see if a condition has been met
+# If not it will run again until the condition has been met
+
+while x <= 10:
+    print(x)
+    x += 1
